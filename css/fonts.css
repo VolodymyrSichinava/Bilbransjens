@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'zapfdingbats_btregular';
+    src: url('../fonts/zapf_dingbats_bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'klavika_lightplain';
+    src: url('../fonts/klavikalight-plain-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'klavika_lightlight';
+    src: url('../fonts/klavikalight-osf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'klavika_mediumplain';
+    src: url('../fonts/klavika_medium_plain-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'klavika_regularplain';
+    src: url('../fonts/klavikaregular-plain-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'klavika_regularregular';
+    src: url('../fonts/klavikaregular-osf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'klavika_boldbold';
+    src: url('../fonts/klavika_bold_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arialregular';
+    src: url('../fonts/arial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('../fonts/proxima_nova-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?z6b6r0');
+  src:  url('../fonts/icomoon.eot?z6b6r0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?z6b6r0') format('truetype'),
+    url('../fonts/icomoon.woff?z6b6r0') format('woff'),
+    url('../fonts/icomoon.svg?z6b6r0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e900";
+}
+.icon-red_check:before {
+  content: "\e901";
+  color: #c52020;
+  
+}
